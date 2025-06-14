@@ -38,5 +38,5 @@
 
 1. **استنساخ المشروع:**
 ```bash
-git clone https://github.com/your-username/azkar-app.git
+git clone https://github.com/Rajaykhan/azkar-app.git
 cd azkar-app
