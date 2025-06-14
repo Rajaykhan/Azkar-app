@@ -40,3 +40,41 @@
 ```bash
 git clone https://github.com/Rajaykhan/azkar-app.git
 cd azkar-app
+
+# اسم المشروع
+
+## التثبيت والتشغيل
+
+### تحميل المكتبات:
+```bash
+flutter pub get
+
+flutter run
+
+flutter build apk --release
+
+## 2. مجلد docs/
+يمكنك إنشاء مجلد منفصل للتوثيق:
+- `docs/installation.md`
+- `docs/build.md`
+
+## 3. Wiki الخاص بالمشروع
+GitHub يوفر قسم Wiki لكل مستودع لكتابة التوثيق المفصل.
+
+## 4. ملف CONTRIBUTING.md
+إذا كان المشروع مفتوح المصدر ويقبل مساهمات.
+
+## نصائح إضافية:
+
+### إضافة متطلبات النظام:
+```markdown
+## المتطلبات
+- Flutter SDK
+- Dart SDK
+- Android Studio أو VS Code
+
+## البدء السريع
+1. استنسخ المشروع: `git clone [رابط المشروع]`
+2. انتقل لمجلد المشروع: `cd project-name`
+3. حمل المكتبات: `flutter pub get`
+4. شغل التطبيق: `flutter run`
